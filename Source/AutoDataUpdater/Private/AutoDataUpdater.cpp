@@ -17,6 +17,7 @@
 #include <AutoDataObject.h>
 #include "Engine/SCS_Node.h"
 #include "UObject/UnrealType.h"
+#include "UObject/SoftObjectPath.h"
 
 static const FName AutoDataUpdaterTabName("AutoDataUpdater");
 
@@ -81,6 +82,10 @@ void FAutoDataUpdaterModule::PluginButtonClicked()
 				SourceDataObject->ParseCsv(bAppendProjectPath ? AppendProjectPath(It) : It))
 			{
 				bIsAllSuccess &= ParseDataObjectAndUpdate(SourceDataObject);
+			}
+			else
+			{
+				bIsAllSuccess = false;
 			}
 		}
 
@@ -167,6 +172,36 @@ UClass* FAutoDataUpdaterModule::FindClassByName(const FName& ClassName)
 	return nullptr;
 }
 
+bool FAutoDataUpdaterModule::FindAssetSoftObjectPath(const FName& ClassName, FSoftObjectPath& OutObjectPath)
+{
+	if (ClassName.IsNone())
+		return false;
+
+	// Get asset registry
+	FAssetRegistryModule& AssetRegistryModule = FModuleManager::LoadModuleChecked<FAssetRegistryModule>(FName("AssetRegistry"));
+	IAssetRegistry& AssetRegistry = AssetRegistryModule.Get();
+
+	TArray<FAssetData> AssetsList;
+	AssetRegistry.GetAssetsByPath("/Game/", AssetsList, true);
+
+	for (FAssetData It : AssetsList)
+	{
+		if (!It.IsValid())
+		{
+			continue;
+		}
+
+		// Get with matching name
+		if (It.AssetName == ClassName)
+		{
+			OutObjectPath = It.ToSoftObjectPath();
+			return true;
+		}
+	}
+
+	return false;
+}
+
 FString FAutoDataUpdaterModule::AppendProjectPath(const FString& FilePath)
 {
 	// Don't do anything if the specified file path is empty
@@ -237,6 +272,14 @@ bool FAutoDataUpdaterModule::ParseDataObjectAndUpdate(UAutoDataObject* DataSourc
 					else if (VariableType == TEXT("bool"))
 					{
 						UpdateProperty<bool>(DefaultObject, PropertyToChange, CurrentNodes[j]->GetValueAsBool());
+					}
+					else if (VariableType == TEXT("FSoftObjectPath"))
+					{
+						FSoftObjectPath SoftObjValue;
+						if (FindAssetSoftObjectPath(CurrentNodes[j]->GetValueAsName(), SoftObjValue))
+						{
+							UpdateProperty<FSoftObjectPath>(DefaultObject, PropertyToChange, SoftObjValue);
+						}
 					}
 					else
 					{

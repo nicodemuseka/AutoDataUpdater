@@ -42,6 +42,13 @@ protected:
 	*/
 	UClass* FindClassByName(const FName& ClassName);
 
+	/*
+	*	Gets the the soft object path of the first asset with the specified name
+	*	@param ClassName: Name of the asset to find
+	*	@return true if found
+	*/
+	bool FindAssetSoftObjectPath(const FName& ClassName, FSoftObjectPath& OutObjectPath);
+
 	/* 
 	*	Checks and appends if the specified path has the project path
 	*	@return modified filepath with the project path appended, will return empty if the given string is empty
