@@ -17,7 +17,7 @@ I find Unreal Engine's data table is not very friendly to update, especially whe
 
 ![image](https://user-images.githubusercontent.com/9084754/175923891-a15f219b-79fb-4123-a361-e72ca5cbb564.png)
 
-- Currently the plugin supports these variable types: boolean, integer (int32), float, String, Name.
+- Currently the plugin supports these variable types: boolean, integer (int32), float, String, Name, and asset (as Soft Object Path).
 
 # Known Issues
 
