@@ -1,7 +1,5 @@
 # AutoDataUpdater
-Database related plugin for Unreal Engine 4. This plugin reads from external csv files, looks for assets with the matching name, and updates their variable values as specified in the data.
-
-I find Unreal Engine's data table is not very friendly to update, especially when dealing with a large number of data, so I made the data into a csv.
+Database related plugin for Unreal Engine 4. This plugin reads from external csv files, looks for assets with the matching name, and updates their variable values as specified in the data. The plugin will also try to look in the components (if the asset can have components) if it cannot find the matching variable in the object.
 
 # Instructions
 
