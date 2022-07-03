@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "AutoDataUpdater",
+	"Description": "Updates game content from csv",
+	"Category": "Database",
+	"CreatedBy": "Nicodemus Eka Gunawan",
+	"CreatedByURL": "github.com/nicodemuseka/AutoDataUpdater",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "AutoDataUpdater",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
