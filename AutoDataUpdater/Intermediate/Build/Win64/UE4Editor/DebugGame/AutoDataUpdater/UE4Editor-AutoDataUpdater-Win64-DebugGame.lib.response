@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-AutoDataUpdater-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\UnrealProjects\Playground\Intermediate\Build\Win64\PlaygroundEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h.obj"
+"D:\UnrealProjects\Playground\Plugins\AutoDataUpdater\Intermediate\Build\Win64\UE4Editor\DebugGame\AutoDataUpdater\Module.AutoDataUpdater.cpp.obj"
+"D:\UnrealProjects\Playground\Plugins\AutoDataUpdater\Intermediate\Build\Win64\UE4Editor\DebugGame\AutoDataUpdater\Module.AutoDataUpdater.gen.cpp.obj"
+"D:\UnrealProjects\Playground\Plugins\AutoDataUpdater\Intermediate\Build\Win64\UE4Editor\DebugGame\AutoDataUpdater\Default.rc2.res"
+/OUT:"D:\UnrealProjects\Playground\Plugins\AutoDataUpdater\Intermediate\Build\Win64\UE4Editor\DebugGame\AutoDataUpdater\UE4Editor-AutoDataUpdater-Win64-DebugGame.lib"
+/INCLUDE:IMPLEMENT_MODULE_AutoDataUpdater

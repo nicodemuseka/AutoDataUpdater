@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AutoDataUpdater.cpp.obj": [
+			"AutoDataNode.cpp.obj",
+			"AutoDataObject.cpp.obj",
+			"AutoDataUpdater.cpp.obj",
+			"AutoDataUpdaterCommands.cpp.obj",
+			"AutoDataUpdaterStyle.cpp.obj"
+		],
+		"Module.AutoDataUpdater.gen.cpp.obj": [
+			"AutoDataNode.gen.cpp.obj",
+			"AutoDataObject.gen.cpp.obj",
+			"AutoDataSettings.gen.cpp.obj",
+			"AutoDataUpdater.init.gen.cpp.obj"
+		]
+	}
+}

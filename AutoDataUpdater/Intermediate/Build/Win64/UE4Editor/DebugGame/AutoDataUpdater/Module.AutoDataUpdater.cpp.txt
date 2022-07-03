@@ -1,0 +1,65 @@
+D:\UnrealProjects\Playground\Plugins\AutoDataUpdater\Intermediate\Build\Win64\UE4Editor\DebugGame\AutoDataUpdater\Definitions.AutoDataUpdater.h
+D:/UnrealProjects/Playground/Plugins/AutoDataUpdater/Source/AutoDataUpdater/Private/AutoDataNode.cpp
+D:\UnrealProjects\Playground\Plugins\AutoDataUpdater\Source\AutoDataUpdater\Public\AutoDataNode.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/NoExportTypes.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\Core\Public\Math/UnitConversion.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
+D:\UnrealProjects\Playground\Plugins\AutoDataUpdater\Intermediate\Build\Win64\UE4Editor\Inc\AutoDataUpdater\AutoDataNode.generated.h
+D:/UnrealProjects/Playground/Plugins/AutoDataUpdater/Source/AutoDataUpdater/Private/AutoDataObject.cpp
+D:\UnrealProjects\Playground\Plugins\AutoDataUpdater\Source\AutoDataUpdater\Public\AutoDataObject.h
+D:\UnrealProjects\Playground\Plugins\AutoDataUpdater\Intermediate\Build\Win64\UE4Editor\Inc\AutoDataUpdater\AutoDataObject.generated.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/FileHelper.h
+D:/UnrealProjects/Playground/Plugins/AutoDataUpdater/Source/AutoDataUpdater/Private/AutoDataUpdater.cpp
+D:\UnrealProjects\Playground\Plugins\AutoDataUpdater\Source\AutoDataUpdater\Public\AutoDataUpdater.h
+D:\UnrealProjects\Playground\Plugins\AutoDataUpdater\Source\AutoDataUpdater\Public\AutoDataUpdaterStyle.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Styling/SlateStyle.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateBorderBrush.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateBoxBrush.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateColorBrush.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateImageBrush.h
+D:\UnrealProjects\Playground\Plugins\AutoDataUpdater\Source\AutoDataUpdater\Public\AutoDataUpdaterCommands.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Developer\ToolMenus\Public\ToolMenus.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Developer\ToolMenus\Public\IToolMenusModule.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Developer\ToolMenus\Public\ToolMenu.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Developer\ToolMenus\Public\ToolMenuOwner.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ToolMenus\ToolMenuOwner.generated.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Developer\ToolMenus\Public\ToolMenuDelegates.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Developer\ToolMenus\Public\ToolMenuMisc.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ToolMenus\ToolMenuMisc.generated.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ToolMenus\ToolMenuDelegates.generated.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Developer\ToolMenus\Public\ToolMenuSection.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Developer\ToolMenus\Public\ToolMenuEntry.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ToolMenus\ToolMenuEntry.generated.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ToolMenus\ToolMenuSection.generated.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\Slate\Public\Framework/MultiBox/ToolMenuBase.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/BlacklistNames.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate\ToolMenuBase.generated.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ToolMenus\ToolMenu.generated.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Developer\ToolMenus\Public\ToolMenuEntryScript.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ToolMenus\ToolMenuEntryScript.generated.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ToolMenus\ToolMenus.generated.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistry/AssetRegistryModule.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistry/IAssetRegistry.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\Misc/AssetRegistryInterface.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry\IAssetRegistry.generated.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Developer\Settings\Public\ISettingsModule.h
+D:\UnrealProjects\Playground\Plugins\AutoDataUpdater\Source\AutoDataUpdater\Public\AutoDataSettings.h
+D:\UnrealProjects\Playground\Plugins\AutoDataUpdater\Intermediate\Build\Win64\UE4Editor\Inc\AutoDataUpdater\AutoDataSettings.generated.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/SCS_Node.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/SimpleConstructionScript.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SimpleConstructionScript.generated.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SCS_Node.generated.h
+D:/UnrealProjects/Playground/Plugins/AutoDataUpdater/Source/AutoDataUpdater/Private/AutoDataUpdaterCommands.cpp
+D:/UnrealProjects/Playground/Plugins/AutoDataUpdater/Source/AutoDataUpdater/Private/AutoDataUpdaterStyle.cpp
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Styling/SlateStyleRegistry.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Slate/SlateGameResources.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\Projects\Public\Interfaces/IPluginManager.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\Projects\Public\PluginDescriptor.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\Projects\Public\ModuleDescriptor.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\Json\Public\Serialization/JsonWriter.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\Json\Public\Serialization/JsonTypes.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\Projects\Public\CustomBuildSteps.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\Projects\Public\LocalizationDescriptor.h
+E:\Program Files\Epic Games\Games\UE_4.26\Engine\Source\Runtime\Projects\Public\PluginReferenceDescriptor.h
